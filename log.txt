@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "ashwini bailmare",
+    "address": "nagpur maharshtra",
+    "phone_number": "(+91) 983 893 3937",
+    "website": "http://google.com",
+    "language": "english",
+    "location": {
+        "lat": -38.4885758,
+        "lng": 33.5845145
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 17 Sep 2020 06:11:36 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "760a98bbe7cb2e4fd67271ff136bf7bb",
+    "scope": "APP",
+    "reference": "7da97624b1436584d472055b642feb7c7da97624b1436584d472055b642feb7c",
+    "id": "7da97624b1436584d472055b642feb7c"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=760a98bbe7cb2e4fd67271ff136bf7bb
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=760a98bbe7cb2e4fd67271ff136bf7bb
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 17 Sep 2020 06:11:40 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 250
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.4885758",
+        "longitude": "33.5845145"
+    },
+    "accuracy": "50",
+    "name": "ashwini bailmare",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "nagpur maharshtra",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "english"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "sandhya bailmare",
+    "address": "ramtek,maharashtra",
+    "phone_number": "(+91) 983 893 3937",
+    "website": "http://google.com",
+    "language": "marathi",
+    "location": {
+        "lat": -38.4885758,
+        "lng": 33.5845145
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 17 Sep 2020 06:11:42 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "6b9eff5f4d0789f26671d105a97aa209",
+    "scope": "APP",
+    "reference": "a5f8b3f1ba6c292eef9919b945a3dab4a5f8b3f1ba6c292eef9919b945a3dab4",
+    "id": "a5f8b3f1ba6c292eef9919b945a3dab4"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6b9eff5f4d0789f26671d105a97aa209
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=6b9eff5f4d0789f26671d105a97aa209
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 17 Sep 2020 06:11:43 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 251
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.4885758",
+        "longitude": "33.5845145"
+    },
+    "accuracy": "50",
+    "name": "sandhya bailmare",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "ramtek,maharashtra",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "marathi"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "6b9eff5f4d0789f26671d105a97aa209"
+}
+HTTP/1.1 200 OK
+Date: Thu, 17 Sep 2020 06:11:45 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
